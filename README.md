@@ -1,1 +1,1 @@
-# test-js-app
+# js-training-izabella
