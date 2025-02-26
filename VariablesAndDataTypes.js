@@ -98,3 +98,6 @@ console.log(String(emptyValue)); // output -> "null"
 
 let emptymalue;
 console.log(Number(emptymalue)); // output -> "null"
+n = 2
+n *=3+5
+console.log(n);
