@@ -97,4 +97,8 @@ const emptyValue = null;
 console.log(String(emptyValue)); // output -> "null"
 
 let emptymalue;
+<<<<<<< HEAD
 console.log(Number(emptymalue)); // output -> "null"
+=======
+console.log(Number(emptymalue)); // output -> "null"
+>>>>>>> cffe3472b039027ac4e89d2c3ad7d82709fc0f92
