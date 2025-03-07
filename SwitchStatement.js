@@ -24,7 +24,7 @@ const thirdInput = userInput("Please provide your second number: ");
 
 const num1 = +firstInput;
 const num2 = +thirdInput;
-///'isNaN' usage as a solution for handling non-number input is suggested by ChatGPT.
+
 
 if (isNaN(num1) || isNaN(num2))  {
     console.log("Error: Please enter valid numbers.");
