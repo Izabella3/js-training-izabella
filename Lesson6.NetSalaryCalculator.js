@@ -44,7 +44,7 @@ function netSalaryCalculator(grossSalary) {
     let socialSecurity;
     if (grossSalary <= 500000){
      socialSecurity = grossSalary * 0.05;
-    } else if (grossSalary < 1125000){
+    } else if (grossSalary < 1125000){ // you are missing = here, it should be grossSalary <= 1125000
        socialSecurity = (grossSalary * 0.1) - 25000;
     } else {
        socialSecurity = 87500;
@@ -57,7 +57,7 @@ function netSalaryCalculator(grossSalary) {
          stampDuty = 3000;
     } else if (grossSalary <= 500000){
          stampDuty = 5500;
-    } else if (grossSalary < 1000000){
+    } else if (grossSalary < 1000000){ //The condition else if (grossSalary < 1000000) should be else if (grossSalary <= 1000000), otherwise, a salary of exactly 1,000,000 AMD is incorrectly handled.
          stampDuty = 8500;
     } else {
         stampDuty = 15000;
