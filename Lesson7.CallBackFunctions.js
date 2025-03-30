@@ -22,22 +22,6 @@ calculateSquare(2, result => console.log(result)
 // Write your code here
 
 
-function validation(userName, password, callback){
-    
-    if (userName === "Garunik" && password === "eshutyun") {
-        callback(true);
-    } else {
-        callback(false);
-    }
-}
-validation("Garunik", "eshutyun", (isValid) => {
-    console.log(isValid ? "Logged in" : "Credentials are wrong");
-});
-
-
-
-//
-
 
 const userName = "Hamazasp";
 const password = "erb123js";
